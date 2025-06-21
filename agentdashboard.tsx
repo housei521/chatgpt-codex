@@ -3312,7 +3312,7 @@ interface Insight {
             <h3>📋 Active Routing Rules</h3>
             <div className="rules-list">
               <div className="rule-item">
-                <div className="rule-condition">If agent workload > 85%</div>
+                <div className="rule-condition">If agent workload &gt; 85%</div>
                 <div className="rule-action">→ Route new tasks to available agents</div>
                 <div className="rule-status active">Active</div>
               </div>
@@ -3327,7 +3327,7 @@ interface Insight {
                 <div className="rule-status active">Active</div>
               </div>
               <div className="rule-item">
-                <div className="rule-condition">If agent offline > 15 minutes</div>
+                <div className="rule-condition">If agent offline &gt; 15 minutes</div>
                 <div className="rule-action">→ Redistribute pending tasks</div>
                 <div className="rule-status paused">Paused</div>
               </div>
@@ -3945,7 +3945,7 @@ interface Insight {
             <h3>Recent Searches:</h3>
             <div className="result-item">
               <span className="result-icon">🏠</span>
-              <span className="result-text">Properties with ROI > 15%</span>
+              <span className="result-text">Properties with ROI &gt; 15%</span>
               <span className="result-count">12 results</span>
             </div>
             <div className="result-item">
@@ -4052,7 +4052,7 @@ interface Insight {
               </div>
               <div className="trigger-item">
                 <span className="trigger-icon">💰</span>
-                <span className="trigger-desc">Budget variance >10% → Alert + rebalance</span>
+                <span className="trigger-desc">Budget variance &gt;10% → Alert + rebalance</span>
                 <span className="trigger-result">Early warning</span>
               </div>
             </div>
